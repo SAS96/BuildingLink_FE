@@ -1,0 +1,66 @@
+.file-upload-container {
+    height: 100vh;
+}
+
+.file-content-container {
+    height: 75%;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.file-input {
+    height: 22px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.file-content-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.file-content {
+    font-size: 16px;
+    min-height: 15%;
+    max-height: 50%;
+    overflow: auto;
+    text-align: left;
+    border: 2px solid #3498db;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.words-count,
+.repeated-words-count {
+    font-weight: bold;
+}
+
+.repeated-words-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.repeated-words-list {
+    padding: 0;
+    border: 2px solid #3498db;
+    min-height: 4%;
+    max-height: 12%;
+    overflow: auto;
+}
+
+.repeated-word {
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+}
